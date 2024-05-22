@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review GUNPLA</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 3px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+footer {
+    background-color:#333 ;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+form label {
+    display:block ;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 20%;
+    padding: 0px;
+    border: 0px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+      </style>
+</head>
+<body>
+
+<header>
+    <img src="GUNPLA 5.jpg"  style="width:1280px;height: 400px"> 
+    <div class="container">
+        
+        <h1>HG 1/144 Gundam AGE-FX review</h1>
+        
+    </div>         
+</header>
+<img src="hako age fx.jpg"  style="width:800px;height: 400px">
+        <p>rata-rata harga: 200.000.00-300.000.00</p>  
+
+    <center>
+        <img src="siiru age.jpg"  style="width:600px;height: 400px">
+        <p> Selain bagian sensor, stiker foil yang disertakan juga dilengkapi stiker untuk corong.</p>
+    
+        <img src="buki stando age.jpg"  style="width:800px;height: 400px">
+        <p>Asesorisnya termasuk senapan Stangle, suku cadang Daidal Bazooka, dan stand.
+            Itu juga dilengkapi dengan opsi pergelangan tangan (pegangan, telapak tangan kiri).
+        </p>
+        <img src="c faneru.jpg"  style="width:800px;height: 400px">
+        <p> c funnel berisi versi kecil 8 dan versi besar 6</p>
+        <img src="age faneru ari mae.jpg" align="left"style="=width:300px;height: 400px;">
+        <img src="age fanneru usiro.jpg" align="right"style="=width:300px;height: 400px;">
+        
+        <img src="age faneru ari usiro.jpg" align="left"style="=width:300px;height: 400px;">
+        <img src="age faneru mae.jpg" align="right"style="=width:300px;height: 400px;">
+        
+
+<p>Kali ini tidak ada warna merah dan banyak warna biru pada Gunpla berikut sehingga terlihat menyegarkan jika dipadukan dengan bagian berwarna hijau jernih.
+    Mengenai proporsinya, menurut saya titik sambungan pergelangan kaki terlalu ke depan, tetapi sisanya bagus dan menurut saya keseimbangannya keren.
+</p>
+<img src="age 1.jpg" align="left"style="=width:100px;height: 470px;">
+<img src="age 2.jpg" align="right"style="=width:10px;height: 470px;">
+<p> funnel bisa dipasan di berbgai tempat seperti di gambar</p>
+
+<img src="age 4.jpg" align="left"style="=width:100px;height: 300px;">
+<img src="age 5.jpg" align="right"style="=width:10px;height: 300px;">
+<img src="age 3.jpg" align="center"style="=width:150px;height: 300px;">
+
+<p> Dengan stand khusus bisa membuat pose pelepasan funnel dan pose menyerang</p>
+</center>
+<p> Itu tadi review HG Gundam AGE-FX.</p>
+<p>Badan utama tidak memiliki jahitan selain blok kepala dan bahu, dan ini adalah karya yang cerdas, karena juga dilengkapi dengan stand yang memungkinkan Anda menampilkan bagian tipe corong yang terlalu berlebihan.
+    Secara pribadi, saya senang corongnya terbuat dari komponen plastik biasa karena mudah digunakan.</p>
+
+
+<section id="contact" class="section">
+    <div class="container">
+        <h2>hubungi kami</h2>
+        <form id="contactForm">
+            <label for="name">nama:</label>
+            <input type="text" id="name" name="name" required>
+        </form>
+        <form id="contactForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </form>
+        <form id="contactForm">
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea>
+        </form>
+        <button type="submit" id="submitBtn">Kirim</button>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 halaman web kompleks</p>
+    </div>
+</footer>
+ 
+<script>
+    document.getElementById("contactForm").addEventListener("submit", function(event){
+      event.preventDefault();
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var message = document.getElementById("message").value;
+
+      console.log("Nama:" + nama + ", Email: " + email + ",Pesan: " + message);
+    });
+
+document.getElementById("subminBtn").innerText = "mengirim...";
+
+
+     setTimeout(function() {
+
+        console.log("nama: " + name + ", Email: " + email + ", pesan: " + message);
+
+        document.getElementById("submitBtn").innerText = "Kirim";
+
+        document.getElementById("contactForm").reset();
+     }, 2000);
+
+</script>
+
+</body>
+</html>
+
